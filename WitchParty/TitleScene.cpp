@@ -18,4 +18,8 @@ void TitleScene::draw() const{
 	// ロゴの描画位置を計算し、描画
 	FontAsset(U"title")(AppTitle).drawAt(300, 100 + offsetY, Palette::Black);
 	FontAsset(U"title")(AppTitle).drawAt(300 + 2, 100 + offsetY + 2, Palette::Plum);
+
+	new_game_button.draw();
+	show_save_datas_button.draw();
+	exit_button.draw();
 }
