@@ -15,7 +15,7 @@ public:
 private:
 
 	Button new_game_button{
-		{300,360},
+		{300,320},
 		{130,50},
 		U"はじめから",
 		U"standard",
@@ -25,7 +25,7 @@ private:
 		2
 	};
 	Button show_save_datas_button{
-		{300,430},
+		{300,390},
 		{130,50},
 		U"つづきから",
 		U"standard",
@@ -35,9 +35,29 @@ private:
 		2
 	};
 	Button exit_button{
-		{300,500},
+		{300,460},
 		{130,50},
 		U"終了する",
+		U"standard",
+		Palette::White,
+		Palette::Black,
+		Palette::White,
+		2
+	};
+	Button show_credits_button{
+		{95,575},
+		{80,25},
+		U"クレジット",
+		U"mini",
+		Palette::White,
+		Palette::Black,
+		Palette::White,
+		2
+	};
+	Button show_help_button{
+		{30,575},
+		{25,25},
+		U"?",
 		U"standard",
 		Palette::White,
 		Palette::Black,

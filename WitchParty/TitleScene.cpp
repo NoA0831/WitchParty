@@ -22,4 +22,6 @@ void TitleScene::draw() const{
 	new_game_button.draw();
 	show_save_datas_button.draw();
 	exit_button.draw();
+	show_credits_button.draw();
+	show_help_button.draw();
 }
