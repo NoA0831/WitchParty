@@ -5,6 +5,26 @@ TitleScene::TitleScene(const InitData& init)
 
 void TitleScene::update() {
 
+	//新しいゲームを始める画面へ遷移
+	if (new_game_button.leftClicked()) {
+		
+	}
+	//セーブデータ一覧を選択、ロードできる画面へ遷移
+	if (show_save_datas_button.leftClicked()) {
+	
+	}
+	//ゲームを終了する
+	if (exit_button.leftClicked()) {
+		System::Exit();
+	}
+	//クレジット表示画面へ遷移する
+	if (show_credits_button.leftClicked()) {
+		
+	}
+	//ヘルプ画面(ゲーム説明)へ遷移する
+	if (show_help_button.leftClicked()) {
+		
+	}
 }
 
 void TitleScene::draw() const{

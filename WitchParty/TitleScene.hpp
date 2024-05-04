@@ -22,6 +22,9 @@ private:
 		Palette::White,
 		Palette::Black,
 		Palette::White,
+		Palette::Black,
+		Palette::White,
+		Palette::Black,
 		2,
 		4
 	};
@@ -33,6 +36,9 @@ private:
 		Palette::White,
 		Palette::Black,
 		Palette::White,
+		Palette::Black,
+		Palette::White,
+		Palette::Black,
 		2,
 		2
 	};
@@ -44,6 +50,9 @@ private:
 		Palette::White,
 		Palette::Black,
 		Palette::White,
+		Palette::Black,
+		Palette::White,
+		Palette::Black,
 		2,
 		4
 	};
@@ -55,6 +64,9 @@ private:
 		Palette::White,
 		Palette::Black,
 		Palette::White,
+		Palette::Black,
+		Palette::White,
+		Palette::Black,
 		2,
 		2
 	};
@@ -66,6 +78,9 @@ private:
 		Palette::White,
 		Palette::Black,
 		Palette::White,
+		Palette::Black,
+		Palette::White,
+		Palette::Black,
 		2,
 		2
 	};
