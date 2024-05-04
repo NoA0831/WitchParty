@@ -22,7 +22,8 @@ private:
 		Palette::White,
 		Palette::Black,
 		Palette::White,
-		2
+		2,
+		4
 	};
 	Button show_save_datas_button{
 		{300,390},
@@ -32,6 +33,7 @@ private:
 		Palette::White,
 		Palette::Black,
 		Palette::White,
+		2,
 		2
 	};
 	Button exit_button{
@@ -42,7 +44,8 @@ private:
 		Palette::White,
 		Palette::Black,
 		Palette::White,
-		2
+		2,
+		4
 	};
 	Button show_credits_button{
 		{95,575},
@@ -52,6 +55,7 @@ private:
 		Palette::White,
 		Palette::Black,
 		Palette::White,
+		2,
 		2
 	};
 	Button show_help_button{
@@ -62,6 +66,7 @@ private:
 		Palette::White,
 		Palette::Black,
 		Palette::White,
+		2,
 		2
 	};
 };
