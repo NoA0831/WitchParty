@@ -29,5 +29,5 @@ void Button::draw() const {
 }
 
 bool Button::leftClicked() const {
-	return RectF{ { center_pos.x - size.x / 2, center_pos.y - size.y / 2},size }.mouseOver();
+	return RectF{ { center_pos.x - size.x / 2, center_pos.y - size.y / 2},size }.leftClicked();
 }

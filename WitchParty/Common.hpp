@@ -9,8 +9,11 @@ const String FontFilePath = U"misaki_gothic.ttf";
 
 enum class State {
 	Title,
+	NewGameCreate,
 	SaveDataList,
 	Game,
+	Credits,
+	Help
 };
 struct GameData {
 
