@@ -12,6 +12,9 @@ private:
 	Color text_color;
 	Color background_color;
 	Color border_color;
+	Color mouse_over_text_color;
+	Color mouse_over_background_color;
+	Color mouse_over_border_color;
 	int border_radius_size;
 
 public:
@@ -24,6 +27,9 @@ public:
 		const Color& _text_color,
 		const Color& _background_color,
 		const Color& _border_color,
+		const Color& _mouse_over_text_color,
+		const Color& _mouse_over_background_color,
+		const Color& _mouse_over_border_color,
 		const int& _border_stroke_width,
 		const int& _border_radius_size
 	);
