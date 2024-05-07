@@ -9,7 +9,7 @@ const String FontFilePath = U"misaki_gothic.ttf";
 
 enum class State {
 	Title,
-	NewGameCreate,
+	GameCreate,
 	SaveDataList,
 	Game,
 	Credits,
