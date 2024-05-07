@@ -1,5 +1,6 @@
 ﻿# include "Common.hpp"
 # include "TitleScene.hpp"
+# include "CreateGameScene.hpp"
 
 void Main()
 {
@@ -8,6 +9,9 @@ void Main()
 
 	App manger;
 	manger.add<TitleScene>(State::Title);
+	manger.add<CreateGameScene>(State::GameCreate);
+
+	manger.init(State::GameCreate);
 
 	FontAsset::Register(U"title", 50, FontFilePath, FontStyle::Bitmap);
 	FontAsset::Register(U"standard", 20, FontFilePath, FontStyle::Bitmap);

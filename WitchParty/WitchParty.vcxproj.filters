@@ -156,6 +156,9 @@
     <ClCompile Include="Button.cpp">
       <Filter>Source Files\Utils</Filter>
     </ClCompile>
+    <ClCompile Include="CreateGameScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="App\icon.ico">
@@ -829,6 +832,9 @@
     </ClInclude>
     <ClInclude Include="Button.hpp">
       <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateGameScene.hpp">
+      <Filter>Source Files\Scenes</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
