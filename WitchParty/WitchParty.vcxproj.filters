@@ -836,5 +836,11 @@
     <ClInclude Include="CreateGameScene.hpp">
       <Filter>Source Files\Scenes</Filter>
     </ClInclude>
+    <ClInclude Include="Charactors.hpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="HitPoint.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -17,6 +17,10 @@ void Main()
 	FontAsset::Register(U"standard", 20, FontFilePath, FontStyle::Bitmap);
 	FontAsset::Register(U"mini", 15, FontFilePath, FontStyle::Bitmap);
 
+	for (int i = 0; i < CHAR_IMG_PATHS.size(); i++) {
+		TextureAsset::Register()
+	}
+
 	while (System::Update()) {
 		if (not manger.update()) {
 			break;

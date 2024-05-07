@@ -329,8 +329,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Button.hpp" />
+    <ClInclude Include="Charactors.hpp" />
     <ClInclude Include="Common.hpp" />
     <ClInclude Include="CreateGameScene.hpp" />
+    <ClInclude Include="HitPoint.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="TitleScene.hpp" />
   </ItemGroup>

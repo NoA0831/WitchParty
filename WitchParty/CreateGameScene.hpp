@@ -42,4 +42,18 @@ private:
 		2,
 		2
 	};
+	Button game_start_button{
+		{30,575},
+		{25,25},
+		U"ゲームをはじめる",
+		U"standard",
+		Palette::White,
+		Palette::Black,
+		Palette::White,
+		Palette::Black,
+		Palette::White,
+		Palette::Black,
+		2,
+		2
+	};
 };
