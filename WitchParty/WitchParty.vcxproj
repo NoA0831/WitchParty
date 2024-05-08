@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="CreateGameScene.cpp" />
+    <ClCompile Include="MagicPoint.hpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -329,6 +330,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Button.hpp" />
+    <ClInclude Include="CharactorRender.hpp" />
     <ClInclude Include="Charactors.hpp" />
     <ClInclude Include="Common.hpp" />
     <ClInclude Include="CreateGameScene.hpp" />

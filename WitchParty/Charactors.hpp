@@ -1,15 +1,19 @@
 ﻿# pragma once
 # include "Common.hpp"
 # include "HitPoint.hpp"
+# include "MagicPoint.hpp"
+# include "CharactorRender.hpp"
 
+/*
 class Character {
 
 private:
 	String name;
-	int hp;                       // キャラクターのHP
-	int mp;                       // キャラクターのMP
+	HitPoint hp;                       
+	MagicPoint mp;
+	CharactorRender charactor_render;
 
 public:
-	Character(const std::string& _name, int _hp, int _mp, const std::vector<std::string>& _skills)
-		: name(_name), hp(_hp), mp(_mp), skills(_skills) {}
+	
 };
+*/

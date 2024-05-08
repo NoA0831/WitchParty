@@ -14,11 +14,12 @@ public:
 
 private:
 
+	int now_select_charactor = 0;
 	Button prev_character_button{
-		{30,575},
+		{200,560},
 		{25,25},
 		U"<",
-		U"standard",
+		U"mini",
 		Palette::White,
 		Palette::Black,
 		Palette::White,
@@ -29,10 +30,10 @@ private:
 		2
 	};
 	Button next_character_button{
-		{30,575},
+		{400,560},
 		{25,25},
 		U">",
-		U"standard",
+		U"mini",
 		Palette::White,
 		Palette::Black,
 		Palette::White,
@@ -43,10 +44,24 @@ private:
 		2
 	};
 	Button game_start_button{
-		{30,575},
-		{25,25},
+		{300,560},
+		{140,25},
 		U"ゲームをはじめる",
-		U"standard",
+		U"mini",
+		Palette::White,
+		Palette::Black,
+		Palette::White,
+		Palette::Black,
+		Palette::White,
+		Palette::Black,
+		2,
+		2
+	};
+	Button back_title_button{
+		{40,40},
+		{25,25},
+		U"←",
+		U"mini",
 		Palette::White,
 		Palette::Black,
 		Palette::White,
