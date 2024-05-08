@@ -19,5 +19,4 @@ public:
 			throw Error{ U"指定されたHPが最大値より大きいです。" };
 		}
 	}
-	
 };
